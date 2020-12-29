@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>ChatBot</title>
+    </head>
+    <body>
+        <table class="center">
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="username" placeholder="Username"/>
+                    <button type="button" onclick="connect();" >Connect</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea readonly="true" rows="20" cols="80" id="log"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" size="15" id="to" placeholder="To"/>
+                    <input type="text" size="51" id="msg" placeholder="Message"/>
+                    <button type="button" onclick="send();" >Send</button>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+    <script src="js/script.js"></script>
+
+</html>
